@@ -1,16 +1,50 @@
-# loginandreg
+# Login and Registration Flutter App
 
-A new Flutter project.
+- Simple and clean authentication application built using Flutter and Provider
+- Developed as part of a machine test
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Login using email and password
+- Password show and hide option
+- Remember me option
+- Forgot password user interface only
+- Navigation to registration screen
+- Registration with name email password confirm password
+- Input validation and error handling
+- Mock authentication using Provider
+- Successful login navigates to thank you screen
+- Light and clean material user interface
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture and State Management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- State management using Provider ChangeNotifier
+- Handles login logic
+- Handles registration logic
+- Manages loading state
+- Shows error messages
+- Clear separation of user interface and logic
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+- Main application entry
+- Provider folder for authentication logic
+- Screens folder for login registration and success screens
+- Widget folder for reusable input fields
+
+## Authentication Flow
+
+- User registers with name email and password
+- Credentials are stored locally in memory
+- User logs in using the same credentials
+- Successful login redirects to thank you screen
+
+## How to Run the Project
+
+- Open the project in a Flutter supported editor
+- Install dependencies
+- Run the application on emulator or device
+
+## Author
+
+- Sreeshna
